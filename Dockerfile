@@ -9,7 +9,6 @@ RUN npm install
 
 EXPOSE 3000
 
-=======
 # Use official lightweight Node.js 22 Alpine image
 FROM node:22-alpine
 
@@ -29,5 +28,4 @@ COPY . .
 EXPOSE 3000
 
 # Run the API server
->>>>>>> 14d759f48b739b39ffdbf092633b7787cd4b6d47
 CMD ["node", "server.js"]
