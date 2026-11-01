@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 "name": "sabzicart-api",
 "version": "1.0.0",
 "description": "SabziCart price API",
@@ -10,7 +9,6 @@
 "dependencies": {
 "express": "^5.1.0"
 }
-=======
   "name": "sabzicart-api",
   "version": "1.0.0",
   "description": "SabziCart price API",
@@ -21,5 +19,4 @@
   "dependencies": {
     "express": "^5.1.0"
   }
->>>>>>> 14d759f48b739b39ffdbf092633b7787cd4b6d47
 }
