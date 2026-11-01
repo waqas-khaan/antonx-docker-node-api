@@ -61,3 +61,4 @@ curl http://localhost:3000/api/prices
 docker stop sabzicart-api
 docker rm sabzicart-api
 ```
+
