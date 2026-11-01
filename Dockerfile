@@ -1,3 +1,13 @@
+FROM node:22-alpine
+
+WORKDIR /app
+
+COPY . .
+
+RUN npm install
+
+EXPOSE 3000
+
 # Use official lightweight Node.js 22 Alpine image
 FROM node:22-alpine
 

@@ -1,9 +1,8 @@
 // server.js - the SabziCart price API (Node.js + Express)
 const express = require("express");
 const os = require("os");
-
 const app = express();
-const PORT = process.env.PORT || 4500;
+const PORT = process.env.PORT || 3000;
 
 // Daily vegetable market prices (PKR per kg)
 const prices = {
